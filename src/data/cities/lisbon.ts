@@ -16,7 +16,7 @@ export const lisbon: City = {
     {
       "id": 1,
       "name": "Belém Tower",
-      "description": "A 16th-century fortification that served as a defensive tower and ceremonial gateway to Lisbon. Explore its history and enjoy panoramic views of the Tagus River.",
+      "description": "16th-century fortification and ceremonial gateway. Features panoramic views of the Tagus River.",
       "coordinates": [
         38.6928,
         -9.2089
@@ -29,7 +29,7 @@ export const lisbon: City = {
     {
       "id": 2,
       "name": "Jerónimos Monastery",
-      "description": "A magnificent monastery showcasing Manueline architecture, a UNESCO World Heritage Site. Discover its intricate details and learn about its historical significance.",
+      "description": "UNESCO World Heritage monastery with Manueline architecture. Features intricate details and rich history.",
       "coordinates": [
         38.6977,
         -9.2068
@@ -42,7 +42,7 @@ export const lisbon: City = {
     {
       "id": 3,
       "name": "São Jorge Castle",
-      "description": "A historic castle offering stunning views of Lisbon. Explore its ramparts, towers, and archaeological remains, and learn about its Moorish origins.",
+      "description": "Historic castle with Moorish origins. Features ramparts, towers and stunning city views.",
       "coordinates": [
         38.7135,
         -9.1321
@@ -55,7 +55,7 @@ export const lisbon: City = {
     {
       "id": 4,
       "name": "Praça do Comércio",
-      "description": "A grand square located on the Tagus River waterfront. Admire its neoclassical architecture and learn about its role in Lisbon's history.",
+      "description": "Grand waterfront square with neoclassical architecture. Historic center of maritime trade.",
       "coordinates": [
         38.7077,
         -9.1365
@@ -68,7 +68,7 @@ export const lisbon: City = {
     {
       "id": 5,
       "name": "Alfama",
-      "description": "The oldest district of Lisbon, known for its narrow streets, traditional Fado music, and charming atmosphere. Explore its hidden corners and experience the authentic Lisbon vibe.",
+      "description": "Oldest district with narrow streets and Fado music. Features authentic atmosphere and hidden corners.",
       "coordinates": [
         38.7128,
         -9.1271
@@ -81,7 +81,7 @@ export const lisbon: City = {
     {
       "id": 6,
       "name": "Bairro Alto",
-      "description": "A vibrant district known for its nightlife, restaurants, and shops. Experience its lively atmosphere and enjoy the diverse culinary scene.",
+      "description": "Vibrant district with nightlife and restaurants. Known for lively atmosphere and diverse cuisine.",
       "coordinates": [
         38.7142,
         -9.1444
@@ -94,7 +94,7 @@ export const lisbon: City = {
     {
       "id": 7,
       "name": "Chiado",
-      "description": "A historic and elegant district known for its theaters, bookstores, and cafes. Explore its charming streets and enjoy the bohemian atmosphere.",
+      "description": "Elegant district with theaters and bookstores. Features charming cafes and bohemian atmosphere.",
       "coordinates": [
         38.7118,
         -9.1408

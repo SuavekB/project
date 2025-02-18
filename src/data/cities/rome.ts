@@ -16,7 +16,7 @@ export const rome: City = {
     {
       "id": 1,
       "name": "Colosseum",
-      "description": "The iconic symbol of Imperial Rome and the largest amphitheater ever built. Notable features include the complex network of underground chambers, the massive stone arches, and the 50,000-seat arena where gladiatorial contests and public spectacles were held. A testament to ancient Roman engineering and architecture that has influenced arena design for two millennia.",
+      "description": "The iconic symbol of Imperial Rome and largest amphitheater ever built. Features underground chambers, massive stone arches, and a 50,000-seat arena for gladiatorial contests. A masterpiece of ancient Roman engineering.",
       "coordinates": [
         41.8902,
         12.4922
@@ -29,7 +29,7 @@ export const rome: City = {
     {
       "id": 2,
       "name": "Roman Forum",
-      "description": "The heart of ancient Rome, featuring ruins of important government buildings, temples, and public spaces. Notable sites include the Temple of Saturn, the Arch of Titus, and the House of the Vestal Virgins. Walk through centuries of Roman history where emperors were crowned and public speeches were delivered.",
+      "description": "The heart of ancient Rome, featuring ruins of important government buildings, temples, and public spaces. Notable sites include the Temple of Saturn, the Arch of Titus, and the House of the Vestal Virgins.",
       "coordinates": [
         41.8925,
         12.4853
@@ -42,7 +42,7 @@ export const rome: City = {
     {
       "id": 3,
       "name": "Trevi Fountain",
-      "description": "The largest Baroque fountain in Rome and one of the most famous fountains in the world. Features the god Neptune riding a shell-shaped chariot led by Tritons with seahorses. According to legend, throwing a coin into the fountain ensures a return visit to Rome. A masterpiece of art and hydraulic engineering.",
+      "description": "The largest Baroque fountain in Rome. Features Neptune riding a shell-shaped chariot led by Tritons with seahorses. Legend says throwing a coin ensures a return to Rome.",
       "coordinates": [
         41.9009,
         12.4833
@@ -68,7 +68,7 @@ export const rome: City = {
     {
       "id": 5,
       "name": "Vatican Museums",
-      "description": "Museums with a rich collection of art and artifacts. Notable permanent exhibits include Michelangelo's Sistine Chapel ceiling, Raphael's 'School of Athens', and the ancient Laocoon sculpture group. Explore Egyptian mummies, Etruscan artifacts, and the Gallery of Maps. A journey through centuries of artistic and cultural heritage.",
+      "description": "Museums with vast art collections featuring Michelangelo's Sistine Chapel ceiling, Raphael's 'School of Athens', and the Laocoon sculpture. Includes Egyptian mummies and the Gallery of Maps.",
       "coordinates": [
         41.9066,
         12.4539
@@ -81,7 +81,7 @@ export const rome: City = {
     {
       "id": 6,
       "name": "Pantheon, Rome",
-      "description": "A marvel of Roman engineering and architectural innovation, built in the 2nd century AD. Features the world's largest unreinforced concrete dome with its iconic central oculus. Originally a temple to all Roman gods, now a Christian church. The perfect proportions and remarkable preservation make it one of the most influential buildings in architectural history.",
+      "description": "A marvel of Roman engineering from the 2nd century AD. Features the world's largest unreinforced concrete dome with central oculus. Originally a temple to Roman gods, now a Christian church.",
       "coordinates": [
         41.8986,
         12.4769

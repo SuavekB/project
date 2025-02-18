@@ -16,7 +16,7 @@ export const paris: City = {
     {
       "id": 1,
       "name": "Eiffel Tower",
-      "description": "The iconic symbol of Paris, completed in 1889 for the World's Fair. Standing at 324 meters (1,063 ft) tall, this architectural marvel offers breathtaking panoramic views of Paris from its three observation levels. The tower features two restaurants, including the Michelin-starred Le Jules Verne, and sparkles with thousands of lights for five minutes every hour after sunset.",
+      "description": "The iconic symbol of Paris, completed in 1889. Standing at 324 meters tall, this architectural marvel offers panoramic views from three observation levels. Features two restaurants and sparkles with thousands of lights hourly after sunset.",
       "coordinates": [
         48.8584,
         2.2945
@@ -29,7 +29,7 @@ export const paris: City = {
     {
       "id": 2,
       "name": "Louvre",
-      "description": "One of the largest museums in the world. Notable permanent exhibits include Leonardo da Vinci's 'Mona Lisa', the 'Venus de Milo' statue, and the 'Winged Victory of Samothrace'. Explore vast collections of Egyptian antiquities, Renaissance masterpieces, and French crown jewels. A treasure trove of world art history.",
+      "description": "One of the world's largest museums, home to Leonardo da Vinci's 'Mona Lisa', 'Venus de Milo', and 'Winged Victory of Samothrace'. Features Egyptian antiquities, Renaissance masterpieces, and French crown jewels.",
       "coordinates": [
         48.8606,
         2.3376
@@ -42,7 +42,7 @@ export const paris: City = {
     {
       "id": 3,
       "name": "Notre-Dame de Paris",
-      "description": "A masterpiece of French Gothic architecture, built between 1163 and 1345. This cathedral, famous for its flying buttresses, gargoyles, and stunning rose windows, survived a devastating fire in 2019 and is currently undergoing restoration. The cathedral has been the site of numerous historical events, including Napoleon's coronation in 1804.",
+      "description": "A masterpiece of French Gothic architecture from 1163. Famous for its flying buttresses, gargoyles, and rose windows, this cathedral survived a 2019 fire and is being restored. Site of Napoleon's 1804 coronation.",
       "coordinates": [
         48.853,
         2.3499
@@ -55,7 +55,7 @@ export const paris: City = {
     {
       "id": 4,
       "name": "Champs-Élysées",
-      "description": "One of the world's most famous avenues, stretching 1.9 kilometers from Place de la Concorde to the Arc de Triomphe. This prestigious boulevard is lined with luxury boutiques, flagship stores, theaters, and cafés. It hosts major events including the Bastille Day military parade and the Tour de France finale.",
+      "description": "Famous 1.9km avenue from Place de la Concorde to Arc de Triomphe. Lined with luxury boutiques, stores, theaters, and cafés. Hosts Bastille Day parade and Tour de France finale.",
       "coordinates": [
         48.8682,
         2.303
@@ -68,7 +68,7 @@ export const paris: City = {
     {
       "id": 5,
       "name": "Montmartre",
-      "description": "A charming hilltop district crowned by the stunning Sacré-Cœur Basilica, offering panoramic views of Paris. This historic artists' quarter has been home to famous painters including Picasso, Van Gogh, and Renoir. Today, the cobblestone streets are filled with artists painting in Place du Tertre, charming cafés, and the famous Moulin Rouge cabaret.",
+      "description": "Charming hilltop district crowned by Sacré-Cœur Basilica with panoramic views. Historic artists' quarter once home to Picasso and Van Gogh. Features Place du Tertre artists, cafés, and Moulin Rouge cabaret.",
       "coordinates": [
         48.8864,
         2.343
@@ -81,7 +81,7 @@ export const paris: City = {
     {
       "id": 6,
       "name": "Musée d'Orsay",
-      "description": "Museum of impressionist art housed in a former railway station. Notable permanent exhibits include Van Gogh's self-portraits, Monet's 'Blue Water Lilies', and Renoir's 'Bal du moulin de la Galette'. Features the world's largest collection of Impressionist and Post-Impressionist masterpieces. A stunning showcase of 19th-century art.",
+      "description": "Impressionist art museum in a former railway station. Houses Van Gogh's self-portraits, Monet's 'Blue Water Lilies', and the world's largest collection of Impressionist masterpieces.",
       "coordinates": [
         48.86,
         2.3266
@@ -94,7 +94,7 @@ export const paris: City = {
     {
       "id": 7,
       "name": "The Marais",
-      "description": "A historic district known for its well-preserved medieval architecture and vibrant Jewish quarter. This trendy neighborhood features elegant mansions, contemporary art galleries, fashionable boutiques, and excellent falafel shops. Home to the stunning Place des Vosges and the Picasso Museum, it's particularly lively on Sundays when most other Paris districts are quiet.",
+      "description": "Historic district with medieval architecture and vibrant Jewish quarter. Features mansions, art galleries, boutiques, and falafel shops. Home to Place des Vosges and Picasso Museum, especially lively on Sundays.",
       "coordinates": [
         48.8578,
         2.3583

@@ -1,0 +1,50 @@
+.custom-popup .leaflet-popup-content-wrapper {
+  background: #1a1a1a;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 12px;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.custom-popup .wiki-content img {
+  width: 100%;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-popup .wiki-content {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #333;
+}
+
+.custom-popup .wiki-content p {
+  color: #e5e7eb;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-popup .wiki-content a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #60a5fa;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.custom-popup .wiki-content a:hover {
+  color: #93c5fd;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: #1a1a1a;
+}

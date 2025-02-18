@@ -16,7 +16,7 @@ export const barcelona: City = {
     {
       "id": 1,
       "name": "Sagrada Família",
-      "description": "Monumental basilica designed by Gaudí. This iconic church has been under construction since 1882 and features stunning architectural details inspired by nature. Visitors can marvel at the intricate facades and soaring towers while learning about Gaudí's unique vision.",
+      "description": "Iconic basilica designed by Gaudí, under construction since 1882. Features nature-inspired architecture and soaring towers.",
       "coordinates": [41.4036, 2.1743],
       "visitDuration": 180,
       "priority": 1,
@@ -26,7 +26,7 @@ export const barcelona: City = {
     {
       "id": 2,
       "name": "Park Güell",
-      "description": "Park with architectural elements by Gaudí. This whimsical public park features colorful mosaics, undulating benches, and fantastical structures that showcase Gaudí's unique modernist style. Visitors can enjoy panoramic views of Barcelona while exploring this UNESCO World Heritage site.",
+      "description": "Whimsical park with Gaudí's modernist elements. Features colorful mosaics and panoramic city views.",
       "coordinates": [41.4141, 2.1524],
       "visitDuration": 120,
       "priority": 2,
@@ -36,7 +36,7 @@ export const barcelona: City = {
     {
       "id": 3,
       "name": "Casa Batlló",
-      "description": "House designed by Gaudí. This modernist masterpiece features a facade inspired by marine life, with iridescent tiles and wave-like windows. Inside, visitors can explore the innovative use of light, color, and organic forms that make this building a true architectural gem.",
+      "description": "Modernist masterpiece by Gaudí with marine-inspired facade. Features innovative use of light and organic forms.",
       "coordinates": [41.3917, 2.164],
       "visitDuration": 90,
       "priority": 3,
@@ -46,7 +46,7 @@ export const barcelona: City = {
     {
       "id": 4,
       "name": "La Rambla, Barcelona",
-      "description": "Famous street with numerous shops and restaurants. This vibrant pedestrian boulevard stretches for 1.2 kilometers from Plaça de Catalunya to the Christopher Columbus Monument. Visitors can enjoy street performances, browse flower stalls, and experience the city's bustling atmosphere.",
+      "description": "1.2km pedestrian boulevard with shops and entertainment. Features street performances and flower stalls.",
       "coordinates": [41.3814, 2.1734],
       "visitDuration": 60,
       "priority": 4,
@@ -56,7 +56,7 @@ export const barcelona: City = {
     {
       "id": 5,
       "name": "Barcelona Museum of Contemporary Art",
-      "description": "Museum of contemporary art. This striking white building houses an extensive collection of post-1945 artworks from both Spanish and international artists. Visitors can explore rotating exhibitions and permanent collections while admiring the modern architecture designed by Richard Meier.",
+      "description": "Modern art museum in striking white building. Houses post-1945 artworks in Richard Meier architecture.",
       "coordinates": [41.3841, 2.1659],
       "visitDuration": 120,
       "priority": 5,
@@ -66,7 +66,7 @@ export const barcelona: City = {
     {
       "id": 6,
       "name": "Gothic Quarter, Barcelona",
-      "description": "Historic district with narrow streets. This medieval neighborhood is a maze of ancient alleyways, hidden squares, and Gothic architecture dating back to the Roman era. Visitors can discover centuries-old churches, charming cafes, and artisan shops while exploring this atmospheric part of the city.",
+      "description": "Medieval neighborhood with Gothic architecture. Features ancient churches, hidden squares, and artisan shops.",
       "coordinates": [41.3851, 2.177],
       "visitDuration": 90,
       "priority": 6,
@@ -86,7 +86,7 @@ export const barcelona: City = {
     {
       "id": 8,
       "name": "La Ribera",
-      "description": "Trendy district with boutiques and restaurants. This fashionable neighborhood is home to the stunning Santa Maria del Mar basilica and the Picasso Museum. Visitors can explore medieval palaces, art galleries, and enjoy the area's vibrant nightlife.",
+      "description": "Fashionable district with Santa Maria del Mar basilica. Features medieval palaces and art galleries.",
       "coordinates": [41.3845, 2.1824],
       "visitDuration": 90,
       "priority": 8,
@@ -96,7 +96,7 @@ export const barcelona: City = {
     {
       "id": 9,
       "name": "La Boqueria",
-      "description": "Famous food market. This historic market dates back to 1217 and offers an incredible variety of fresh produce, local specialties, and gourmet treats. Visitors can sample traditional Catalan cuisine, watch cooking demonstrations, and experience the vibrant atmosphere of this culinary landmark.",
+      "description": "Historic market since 1217 with fresh produce and local specialties. Features traditional Catalan cuisine.",
       "coordinates": [41.3807, 2.1702],
       "visitDuration": 60,
       "priority": 9,
@@ -116,7 +116,7 @@ export const barcelona: City = {
     {
       "id": 11,
       "name": "Camp Nou",
-      "description": "Home stadium of FC Barcelona. This legendary football stadium is one of the largest in Europe and offers guided tours of the facilities, museum, and trophy room. Visitors can experience the rich history of the club and feel the atmosphere of this iconic sporting venue.",
+      "description": "Europe's largest football stadium. Features FC Barcelona museum and guided facility tours.",
       "coordinates": [41.380833, 2.122778],
       "visitDuration": 120,
       "priority": 11,
@@ -126,7 +126,7 @@ export const barcelona: City = {
     {
       "id": 12,
       "name": "Tibidabo Amusement Park",
-      "description": "Amusement park with panoramic views. Located at the highest point of Barcelona, this historic park combines vintage rides with modern attractions. Visitors can enjoy thrilling experiences while taking in breathtaking views of the city and the Mediterranean Sea.",
+      "description": "Historic amusement park at Barcelona's highest point. Combines vintage rides with city views.",
       "coordinates": [41.4225, 2.1228],
       "visitDuration": 180,
       "priority": 12,
@@ -136,7 +136,7 @@ export const barcelona: City = {
     {
       "id": 13,
       "name": "Aquarium Barcelona",
-      "description": "Aquarium with a variety of marine life. This modern facility features an 80-meter underwater tunnel and houses over 11,000 animals from 450 different species. Visitors can observe Mediterranean marine life, tropical fish, and participate in interactive educational programs.",
+      "description": "Modern aquarium with 80m underwater tunnel. Houses over 11,000 animals from 450 species.",
       "coordinates": [41.3769, 2.1818],
       "visitDuration": 90,
       "priority": 13,
@@ -146,7 +146,7 @@ export const barcelona: City = {
     {
       "id": 14,
       "name": "Magic Fountain of Montjuïc",
-      "description": "Spectacular fountain show with lights and music. Built for the 1929 International Exhibition, this enchanting fountain combines water choreography with colorful illumination and music. Visitors can enjoy free performances during scheduled times, creating a magical evening experience.",
+      "description": "1929 fountain with choreographed water shows. Features colorful illumination and music performances.",
       "coordinates": [41.3692, 2.1511],
       "visitDuration": 60,
       "priority": 14,
@@ -156,7 +156,7 @@ export const barcelona: City = {
     {
       "id": 15,
       "name": "Turó de la Rovira",
-      "description": "Former anti-aircraft battery with panoramic city views. This historic site offers some of the best 360-degree views of Barcelona and preserves remnants of Spanish Civil War bunkers. Visitors can learn about the city's wartime history while enjoying spectacular sunset views.",
+      "description": "Civil War bunker site with 360-degree views. Features historic remains and spectacular sunsets.",
       "coordinates": [41.4194, 2.16174],
       "visitDuration": 90,
       "priority": 15,
@@ -165,3 +165,4 @@ export const barcelona: City = {
     }
   ]
 } as const;
+

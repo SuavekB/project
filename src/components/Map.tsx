@@ -3,6 +3,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-routing-machine/dist/leaflet-routing-machine.css';
 import 'leaflet-routing-machine';
+import './Map.css';
 import { TouristPoint, TransportSuggestion } from '../types';
 import { getWikipediaInfo } from '../utils/wikipedia';
 import { RefreshCw, X } from 'lucide-react';
@@ -112,24 +113,18 @@ export default function Map({
       });
 
       const wikiInfo = await getWikipediaInfo(point.name);
-      const wikiPreview = wikiInfo?.preview ? `
-        <div class="wiki-preview hidden group-hover:block absolute left-full top-0 ml-2 w-[300px] bg-gray-800 rounded-lg shadow-xl p-3 z-50">
+      const wikiContent = wikiInfo?.preview ? `
+        <div class="wiki-content mt-4 border-t border-gray-600 pt-4">
           ${wikiInfo.preview.image ? `
-            <img src="${wikiInfo.preview.image}" alt="${point.name}" class="w-full h-40 object-cover rounded-lg mb-2"/>
+            <img src="${wikiInfo.preview.image}" alt="${point.name}" class="w-full h-48 object-cover rounded-lg mb-3"/>
           ` : ''}
-          <p class="text-sm text-gray-300">${wikiInfo.preview.extract}</p>
-        </div>
-      ` : '';
-
-      const wikiLink = wikiInfo ? `
-        <div class="relative group inline-block">
+          <p class="text-sm text-gray-700 mb-3">${wikiInfo.preview.extract}</p>
           <a href="${wikiInfo.url}" target="_blank" rel="noopener noreferrer" 
-             class="inline-flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors mt-2">
+             class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-500 transition-colors text-sm">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.931-1.532.029-1.406-3.321-4.293-9.144-5.651-12.409-.251-.601-.441-.987-.619-1.139-.181-.15-.554-.24-1.122-.271C.103 5.033 0 4.982 0 4.898v-.455l.052-.045c.924-.005 5.401 0 5.401 0l.051.045v.434c0 .084-.103.135-.2.157-.74.108-1.178.255-.302 1.495.516.916 1.571 2.689 2.192 3.752.164.278.342.278.493 0 .291-.526 1.465-2.662 1.465-2.662.425-.878.681-1.664-.199-1.745-.226-.027-.326-.078-.326-.162V4.898l.049-.045h5.628l.05.045v.434c0 .084-.103.135-.201.157-.463.108-1.178.255-1.739 1.495-.561 1.24-2.106 4.279-2.106 4.279-.105.211-.087.362.046.362.128 0 .324-.151.486-.446.064-.119.227-.375.449-.724zm4.851-2.017c.952-.089 1.96-.137 3.107-.137 2.513 0 4.148.855 4.148 2.841 0 2.01-1.665 3.053-4.148 3.053-.516 0-1.099-.02-1.676-.06v2.726c0 .084.104.157.202.157h.463c.231 0 .334.054.334.137v.435l-.051.045h-5.629l-.05-.045v-.435c0-.083.103-.137.202-.137h.463c.231 0 .334-.073.334-.157V7.212c0-.083-.103-.156-.334-.156h-.463c-.099 0-.202-.052-.202-.136v-.435l.05-.045c.466.005 2.001-.045 3.25-.045zm1.431 4.02c.478.023.989.036 1.676.036 1.612 0 2.514-.855 2.514-1.899 0-1.068-.902-1.676-2.514-1.676-.687 0-1.198.012-1.676.036v3.503z"/>
             </svg>
-            Wikipedia
-            ${wikiPreview}
+            Read more on Wikipedia
           </a>
         </div>
       ` : '';
@@ -143,10 +138,10 @@ export default function Map({
             <p class="text-sm font-medium">
               ⏰ ${point.openingHours || 'Always open'}
             </p>
-            ${wikiLink}
+            ${wikiContent}
           </div>
         `, {
-          maxWidth: 350,
+          maxWidth: 400,
           className: 'custom-popup'
         });
       
@@ -202,6 +197,9 @@ export default function Map({
       } else {
         newSkipped.add(pointId);
       }
+      // Automatically trigger route update when points are toggled
+      setIsUpdatingRoute(true);
+      debouncedRouteUpdate(Array.from(newSkipped));
       return newSkipped;
     });
   };

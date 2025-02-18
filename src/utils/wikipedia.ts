@@ -1,6 +1,13 @@
 import { WikipediaResponse } from '../types';
 
+const wikiCache = new Map<string, {url: string; preview: { image: string; extract: string; } | null} | null>();
+
 export async function getWikipediaInfo(title: string, lang = 'en'): Promise<{url: string; preview: { image: string; extract: string; } | null} | null> {
+  // Check cache first
+  const cacheKey = `${lang}:${title}`;
+  if (wikiCache.has(cacheKey)) {
+    return wikiCache.get(cacheKey)!;
+  }
   try {
     const searchUrl = `https://${lang}.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|pageimages&titles=${encodeURIComponent(title)}&exintro=1&explaintext=1&pithumbsize=300&origin=*`;
     
@@ -22,7 +29,10 @@ export async function getWikipediaInfo(title: string, lang = 'en'): Promise<{url
       extract: page.extract.substring(0, 200) + '...'
     } : null;
 
-    return { url, preview };
+    const result = { url, preview };
+    // Store in cache
+    wikiCache.set(cacheKey, result);
+    return result;
   } catch (error) {
     console.error(`Error fetching Wikipedia info for ${title}:`, error);
     return null;

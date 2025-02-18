@@ -101,8 +101,28 @@ function App() {
   };
 
   const handleRouteUpdate = useCallback((skippedPoints: string[]) => {
-    generateRoutes(skippedPoints);
-  }, [startPoint, days, selectedCity]);
+    setIsGeneratingRoute(true);
+    try {
+      const activePoints = selectedCity.points.filter(point => !skippedPoints.includes(point.id));
+      generateDailyRoutes(startPoint!, activePoints, days).then(routes => {
+        setDailyRoutes(routes);
+        if (routes.length > 0) {
+          // Find the variant with the same name as currently selected
+          const currentVariantName = selectedVariant?.name;
+          const dayRoutes = routes[selectedDay - 1]?.routes;
+          if (dayRoutes) {
+            const matchingVariant = dayRoutes.find(route => route.name === currentVariantName);
+            setSelectedVariant(matchingVariant || dayRoutes[0]);
+          }
+        }
+        setIsGeneratingRoute(false);
+      });
+    } catch (error) {
+      console.error('Error generating routes:', error);
+      setSearchError('Failed to generate routes. Please try again.');
+      setIsGeneratingRoute(false);
+    }
+  }, [startPoint, days, selectedCity, selectedDay, selectedVariant?.name]);
 
   const cityFoodRecommendations = localFood[selectedCity.name.toLowerCase() as keyof typeof localFood] || [];
 
@@ -284,39 +304,11 @@ function App() {
                     <div className="space-y-3">
                       {selectedVariant.points.map((point, index) => (
                         <div key={point.id} className="bg-gray-800 p-4 rounded-lg">
-                          <div className="flex flex-col">
-                            <div className="flex items-start gap-3 mb-3">
-                              <span className="bg-purple-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">
-                                {index + 1}
-                              </span>
-                              <div>
-                                <h3 className="font-medium text-lg">{point.name}</h3>
-                                <div className="mt-1 space-y-1">
-                                  <p className="text-sm text-gray-400">
-                                    <Clock className="inline-block mr-1" size={14} />
-                                    Visit: {point.visitDuration} minutes
-                                  </p>
-                                  {point.openingHours && (
-                                    <p className="text-sm text-gray-400">
-                                      ⏰ {point.openingHours}
-                                    </p>
-                                  )}
-                                  <p className="text-sm text-gray-400">
-                                    🏛️ Type: {point.type.charAt(0).toUpperCase() + point.type.slice(1)}
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            
-                            <p className="mt-2 text-sm text-gray-300">{point.description}</p>
-
-                            {selectedVariant.navigationInstructions[index] && (
-                              <div className="mt-3 bg-blue-600 bg-opacity-20 p-3 rounded-lg">
-                                <p className="text-sm">
-                                  🚶‍♂️ {selectedVariant.navigationInstructions[index]}
-                                </p>
-                              </div>
-                            )}
+                          <div className="flex items-center gap-3">
+                            <span className="bg-purple-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-lg font-bold">
+                              {index + 1}
+                            </span>
+                            <h3 className="font-medium text-lg">{point.name}</h3>
                           </div>
                         </div>
                       ))}

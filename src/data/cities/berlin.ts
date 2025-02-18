@@ -16,7 +16,7 @@ export const berlin: City = {
     {
       "id": 1,
       "name": "Brandenburg Gate",
-      "description": "Symbol of Berlin, a triumphal arch. Built in the late 18th century, it has witnessed numerous historical events and now stands as a symbol of German unity. Visitors can admire its neoclassical architecture and the famous Quadriga statue on top.",
+      "description": "Historic triumphal arch and symbol of German unity. Features neoclassical architecture and the Quadriga statue on top.",
       "coordinates": [52.5162, 13.3777],
       "visitDuration": 60,
       "priority": 1,
@@ -26,7 +26,7 @@ export const berlin: City = {
     {
       "id": 2,
       "name": "Reichstag building",
-      "description": "German parliament building. The historic building features a stunning glass dome designed by Norman Foster, offering panoramic views of the city. Visitors can learn about German parliamentary history through interactive exhibitions and guided tours.",
+      "description": "German parliament building with a glass dome by Norman Foster. Offers panoramic views and interactive exhibitions.",
       "coordinates": [52.5186, 13.3761],
       "visitDuration": 90,
       "priority": 2,
@@ -36,7 +36,7 @@ export const berlin: City = {
     {
       "id": 3,
       "name": "East Side Gallery",
-      "description": "Remains of the Berlin Wall turned into an art gallery. This 1.3-kilometer-long section features over 100 murals painted by artists from around the world, making it the longest open-air gallery in the world. The artwork reflects themes of freedom, peace, and unity following the fall of the Berlin Wall.",
+      "description": "1.3-kilometer section of Berlin Wall with over 100 murals by international artists. Represents freedom and unity.",
       "coordinates": [52.5054, 13.445],
       "visitDuration": 120,
       "priority": 3,
@@ -46,7 +46,7 @@ export const berlin: City = {
     {
       "id": 4,
       "name": "Unter den Linden",
-      "description": "Famous boulevard with numerous shops and restaurants. This historic avenue stretches from the Brandenburg Gate to the former Prussian palace, lined with linden trees and magnificent buildings. Visitors can explore prestigious institutions, embassies, and cultural landmarks while experiencing the grandeur of old Berlin.",
+      "description": "Historic avenue from Brandenburg Gate to former Prussian palace. Lined with prestigious buildings and cultural landmarks.",
       "coordinates": [52.517, 13.39],
       "visitDuration": 60,
       "priority": 4,
@@ -56,7 +56,7 @@ export const berlin: City = {
     {
       "id": 5,
       "name": "Pergamon Museum",
-      "description": "Museum with a rich collection of ancient artifacts. Notable permanent exhibits include the massive Pergamon Altar, the Ishtar Gate of Babylon, and the Market Gate of Miletus. Explore the Islamic Art collection featuring the Mshatta Facade and the Aleppo Room. A journey through ancient civilizations and Islamic heritage.",
+      "description": "Ancient artifacts museum featuring the Pergamon Altar, Ishtar Gate, and Islamic Art collection.",
       "coordinates": [
         52.5207,
         13.3989
@@ -69,7 +69,7 @@ export const berlin: City = {
     {
       "id": 6,
       "name": "Checkpoint Charlie",
-      "description": "Former crossing point between East and West Berlin during the Cold War. This historic site features a replica of the original guard house and signage, serving as a powerful reminder of Berlin's divided past. Visitors can explore the nearby museum to learn about successful escape attempts and the history of the Berlin Wall.",
+      "description": "Former East-West Berlin crossing point. Features guard house replica and museum about Berlin Wall history.",
       "coordinates": [52.5076, 13.3904],
       "visitDuration": 45,
       "priority": 6,
@@ -79,7 +79,7 @@ export const berlin: City = {
     {
       "id": 7,
       "name": "Alexanderplatz",
-      "description": "Central square of Berlin. This bustling plaza features the iconic TV Tower and World Clock, making it one of the city's most recognizable landmarks. The square serves as a major transportation hub and shopping district, attracting both locals and tourists.",
+      "description": "Central plaza with TV Tower and World Clock. Major transportation and shopping hub.",
       "coordinates": [52.5215, 13.4134],
       "visitDuration": 45,
       "priority": 7,
@@ -89,7 +89,7 @@ export const berlin: City = {
     {
       "id": 8,
       "name": "Tiergarten (park)",
-      "description": "Large city park. This 520-acre urban oasis features beautiful gardens, monuments, and walking paths, making it Berlin's most popular inner-city park. Visitors can enjoy numerous recreational activities, including biking, picnicking, or visiting the Berlin Zoo located within the park.",
+      "description": "520-acre urban park with gardens, monuments, and Berlin Zoo. Perfect for recreation and relaxation.",
       "coordinates": [52.5144, 13.35],
       "visitDuration": 120,
       "priority": 8,
@@ -99,7 +99,7 @@ export const berlin: City = {
     {
       "id": 9,
       "name": "Kreuzberg",
-      "description": "Alternative district with numerous bars and restaurants. Known for its vibrant street art, multicultural atmosphere, and thriving food scene, this neighborhood represents Berlin's creative and diverse spirit. Visitors can explore Turkish markets, indie boutiques, and enjoy the district's famous nightlife.",
+      "description": "Vibrant district known for street art, multicultural atmosphere, and thriving food scene.",
       "coordinates": [52.498, 13.415],
       "visitDuration": 90,
       "priority": 9,
@@ -109,7 +109,7 @@ export const berlin: City = {
     {
       "id": 10,
       "name": "Markthalle Neun",
-      "description": "Market hall with food from around the world. This historic market hall, dating back to 1891, hosts regular food markets, special events, and the popular Street Food Thursday. The venue celebrates both traditional German cuisine and international street food, making it a paradise for food enthusiasts.",
+      "description": "Historic market hall from 1891. Hosts food markets and Street Food Thursday events.",
       "coordinates": [52.5036, 13.4344],
       "visitDuration": 60,
       "priority": 10,
@@ -119,7 +119,7 @@ export const berlin: City = {
     {
       "id": 11,
       "name": "Schloss Charlottenburg",
-      "description": "Palace with beautiful gardens. This magnificent Baroque and Rococo palace was built in the late 17th century as a summer residence for Queen Sophie Charlotte. Visitors can tour the opulent state apartments, explore the extensive gardens, and admire the collection of 18th-century French paintings.",
+      "description": "Baroque and Rococo palace with opulent state apartments and extensive gardens.",
       "coordinates": [52.52, 13.295],
       "visitDuration": 120,
       "priority": 11,
@@ -129,7 +129,7 @@ export const berlin: City = {
     {
       "id": 12,
       "name": "Museum Island",
-      "description": "UNESCO World Heritage site with five museums. Notable permanent exhibits include the iconic bust of Nefertiti at the Neues Museum, the Alte Nationalgalerie's collection of Romantic and Impressionist art, and the Bode Museum's Byzantine art treasures. A comprehensive showcase of human artistic and cultural achievement",
+      "description": "Five museums complex featuring Nefertiti bust, Romantic art, and Byzantine treasures.",
       "coordinates": [
         52.5198,
         13.3988
@@ -142,7 +142,7 @@ export const berlin: City = {
     {
       "id": 13,
       "name": "Gendarmenmarkt",
-      "description": "Elegant square with German and French Cathedrals. This architectural ensemble is considered one of the most beautiful squares in Europe, featuring two identical churches and the Konzerthaus Berlin. The square hosts various events throughout the year, including one of Berlin's most popular Christmas markets.",
+      "description": "Beautiful square with German and French Cathedrals and Konzerthaus. Hosts popular Christmas market.",
       "coordinates": [52.5138, 13.3912],
       "visitDuration": 90,
       "priority": 13,
@@ -152,7 +152,7 @@ export const berlin: City = {
     {
       "id": 14,
       "name": "Tempelhofer Feld",
-      "description": "Former airport turned into a large park. This unique urban space preserves the original runways and terminal building from its days as Berlin's main airport until 2008. Today, it's a popular recreational area where locals and visitors can cycle, skate, or picnic on the former runways.",
+      "description": "Former airport converted to recreational park. Features preserved runways for cycling and activities.",
       "coordinates": [52.4833, 13.4],
       "visitDuration": 180,
       "priority": 14,
@@ -162,7 +162,7 @@ export const berlin: City = {
     {
       "id": 15,
       "name": "Hackesche Höfe",
-      "description": "Network of interconnected courtyards with shops and cafes. This Art Nouveau complex consists of eight beautifully restored courtyards featuring unique architecture and design. The area is home to numerous boutiques, galleries, and entertainment venues, making it a perfect spot for shopping and cultural exploration.",
+      "description": "Art Nouveau complex with eight restored courtyards. Houses boutiques, galleries, and entertainment venues.",
       "coordinates": [52.5262, 13.4017],
       "visitDuration": 120,
       "priority": 15,
@@ -172,7 +172,7 @@ export const berlin: City = {
     {
       "id": 16,
       "name": "Olympiastadion Berlin",
-      "description": "Olympic stadium, home to Hertha BSC. Built for the 1936 Olympics, this historic venue has hosted numerous significant sporting events and concerts. Visitors can take guided tours to explore the stadium's architecture, visit the sports museum, and learn about its complex history.",
+      "description": "Historic 1936 Olympic venue and home to Hertha BSC. Offers guided tours and sports museum.",
       "coordinates": [52.5136, 13.2545],
       "visitDuration": 120,
       "priority": 16,
@@ -181,3 +181,4 @@ export const berlin: City = {
     }
   ]
 } as const;
+

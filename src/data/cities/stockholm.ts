@@ -16,7 +16,7 @@ export const stockholm: City = {
     {
       "id": 1,
       "name": "Vasa Museum",
-      "description": "Displays the 17th-century warship Vasa, which sank on its maiden voyage. Marvel at intricate carvings and learn about maritime archaeology. A Swedish time capsule.",
+      "description": "17th-century warship Vasa with intricate carvings. A remarkable Swedish maritime artifact.",
       "coordinates": [
         59.328,
         18.0914
@@ -29,7 +29,7 @@ export const stockholm: City = {
     {
       "id": 2,
       "name": "Gamla stan",
-      "description": "Stockholm’s medieval old town with cobblestone streets and pastel buildings. Visit Stortorget square and the Royal Palace. A fairy-tale atmosphere.",
+      "description": "Medieval old town with cobblestone streets and pastel buildings. Home to Stortorget square and Royal Palace.",
       "coordinates": [
         59.3258,
         18.0706
@@ -55,7 +55,7 @@ export const stockholm: City = {
     {
       "id": 4,
       "name": "Skansen",
-      "description": "The world’s oldest open-air museum, showcasing traditional Swedish life. Meet Nordic animals and explore historic farms. Family-friendly and educational.",
+      "description": "World's oldest open-air museum showcasing traditional Swedish life and Nordic animals.",
       "coordinates": [
         59.3244,
         18.1017
@@ -68,7 +68,7 @@ export const stockholm: City = {
     {
       "id": 5,
       "name": "ABBA The Museum",
-      "description": "An interactive tribute to the iconic pop group. Sing, dance, and try virtual stage outfits. A must for ABBA fans.",
+      "description": "Interactive museum dedicated to ABBA with virtual experiences and memorabilia.",
       "coordinates": [
         59.3242,
         18.0961
@@ -81,7 +81,7 @@ export const stockholm: City = {
     {
       "id": 6,
       "name": "Drottningholm Palace",
-      "description": "A UNESCO-listed royal residence with Baroque gardens and a Chinese Pavilion. The Swedish royal family’s private home. Versailles of the North.",
+      "description": "UNESCO-listed royal residence with Baroque gardens and Chinese Pavilion.",
       "coordinates": [
         59.3219,
         17.8864
@@ -94,7 +94,7 @@ export const stockholm: City = {
     {
       "id": 7,
       "name": "Fotografiska",
-      "description": "A photography museum in a former customs house. Rotating exhibitions and a rooftop café with panoramic views. A feast for the eyes.",
+      "description": "Contemporary photography museum with rotating exhibitions and rooftop café.",
       "coordinates": [
         59.3247,
         18.0875
@@ -107,7 +107,7 @@ export const stockholm: City = {
     {
       "id": 8,
       "name": "Djurgården",
-      "description": "A green island with museums, parks, and walking trails. Rent a bike or picnic by the water. Stockholm’s recreational heart.",
+      "description": "Green island featuring museums, parks, and scenic walking trails.",
       "coordinates": [
         59.3258,
         18.1186
@@ -120,7 +120,7 @@ export const stockholm: City = {
     {
       "id": 9,
       "name": "Stockholm Palace",
-      "description": "One of Europe’s largest palaces, housing royal apartments and museums. Watch the changing of the guard. Baroque grandeur in the city center.",
+      "description": "Grand Baroque palace with royal apartments and changing of the guard ceremony.",
       "coordinates": [
         59.3269,
         18.0703
@@ -133,7 +133,7 @@ export const stockholm: City = {
     {
       "id": 10,
       "name": "Moderna Museet",
-      "description": "Sweden’s premier modern art museum, featuring works by Picasso, Dali, and Swedish artists. Free admission to permanent collections. A creative hub.",
+      "description": "Modern art museum featuring works by Picasso, Dali, and Swedish artists.",
       "coordinates": [
         59.3253,
         18.0836
@@ -146,7 +146,7 @@ export const stockholm: City = {
     {
       "id": 11,
       "name": "Stockholm archipelago",
-      "description": "A network of 30,000 islands and islets. Take a ferry to Grinda or Vaxholm for hiking and swimming. A natural escape near the city.",
+      "description": "Vast archipelago of 30,000 islands perfect for hiking and swimming.",
       "coordinates": [
         59.3333,
         18.5
@@ -159,7 +159,7 @@ export const stockholm: City = {
     {
       "id": 12,
       "name": "Södermalm",
-      "description": "A trendy district with vintage shops, hip cafes, and street art. Explore Fotografiska or enjoy sunset views from Monteliusvägen. Stockholm’s Brooklyn.",
+      "description": "Trendy district with vintage shops, cafes, and panoramic views from Monteliusvägen.",
       "coordinates": [
         59.3158,
         18.0675
@@ -171,3 +171,4 @@ export const stockholm: City = {
     }
   ]
 } as const;
+

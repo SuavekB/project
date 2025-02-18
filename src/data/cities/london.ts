@@ -16,7 +16,7 @@ export const london: City = {
     {
       "id": 1,
       "name": "Big Ben",
-      "description": "The iconic clock tower at the north end of the Houses of Parliament. Built in 1859, this 316-foot-tall masterpiece of Victorian neo-Gothic architecture is one of London's most recognizable landmarks. The tower's official name is Elizabeth Tower, renamed in 2012 to mark Queen Elizabeth II's Diamond Jubilee. Famous for its accuracy and four massive clock faces, each 23 feet in diameter.",
+      "description": "The iconic clock tower at the Houses of Parliament. Built in 1859, this Victorian neo-Gothic masterpiece is one of London's most recognizable landmarks. Renamed Elizabeth Tower in 2012, it features four massive clock faces.",
       "coordinates": [
         51.5007,
         -0.1246
@@ -29,7 +29,7 @@ export const london: City = {
     {
       "id": 2,
       "name": "Buckingham Palace",
-      "description": "The official London residence and administrative headquarters of the British monarch. Built in 1703, this magnificent palace features 775 rooms, including 19 State rooms open to visitors during summer months. The Changing of the Guard ceremony, a colorful display of precision marching and music, takes place in the forecourt. The palace gardens are the largest private gardens in London.",
+      "description": "The official London residence of the British monarch, built in 1703. Features 775 rooms, with 19 State rooms open to summer visitors. Famous for its Changing of the Guard ceremony and the largest private gardens in London.",
       "coordinates": [
         51.5014,
         -0.1419
@@ -42,7 +42,7 @@ export const london: City = {
     {
       "id": 3,
       "name": "Tower of London",
-      "description": "A UNESCO World Heritage site with nearly 1000 years of history. This historic fortress has served as a royal palace, prison, mint, and treasury. Home to the Crown Jewels of England, including the famous Koh-i-Noor diamond. Visitors can meet the iconic Yeoman Warders (Beefeaters), see the legendary ravens, and explore the White Tower, built by William the Conqueror.",
+      "description": "Historic fortress with 1000 years of history, serving as royal palace, prison, mint, and treasury. Houses the Crown Jewels and features Yeoman Warders, ravens, and the White Tower built by William the Conqueror.",
       "coordinates": [
         51.5081,
         -0.0759
@@ -55,7 +55,7 @@ export const london: City = {
     {
       "id": 4,
       "name": "Oxford Street",
-      "description": "Europe's busiest shopping street, stretching 1.5 miles from Marble Arch to Tottenham Court Road. Home to over 300 shops, including flagship stores of major British brands, historic department stores like Selfridges, and modern retail outlets. Particularly famous for its spectacular Christmas lights displays and seasonal shopping events.",
+      "description": "Europe's busiest shopping street, stretching 1.5 miles. Features over 300 shops, including British flagship stores and Selfridges. Known for Christmas lights and seasonal events.",
       "coordinates": [
         51.5152,
         -0.1419
@@ -68,7 +68,7 @@ export const london: City = {
     {
       "id": 5,
       "name": "British Museum",
-      "description": "A museum with a rich collection of exhibits from around the world. Notable permanent exhibits include the Rosetta Stone, the Parthenon sculptures, and the Egyptian mummies collection. Explore ancient civilizations through the Assyrian lion hunt reliefs and the Lewis Chessmen. A journey through human history and culture.",
+      "description": "World-renowned museum featuring the Rosetta Stone, Parthenon sculptures, and Egyptian mummies. Collection includes Assyrian reliefs and Lewis Chessmen, showcasing human history and culture.",
       "coordinates": [
         51.5194,
         -0.1269
@@ -81,7 +81,7 @@ export const london: City = {
     {
       "id": 6,
       "name": "Hyde Park, London",
-      "description": "One of London's eight Royal Parks, covering 350 acres. Features the Serpentine lake, Speakers' Corner, and the Diana, Princess of Wales Memorial Fountain. A green oasis in central London offering boating, swimming, horse riding, and cycling. Hosts major events including Winter Wonderland and summer concerts. Perfect for picnics and peaceful walks away from the city bustle.",
+      "description": "350-acre Royal Park featuring the Serpentine lake, Speakers' Corner, and Diana Memorial Fountain. Offers boating, swimming, and cycling. Hosts Winter Wonderland and summer concerts.",
       "coordinates": [
         51.5078,
         -0.1657
@@ -94,7 +94,7 @@ export const london: City = {
     {
       "id": 7,
       "name": "Covent Garden",
-      "description": "A vibrant entertainment and shopping district housed in a former fruit and vegetable market. The historic Market Building features luxury shops, craft stalls, and restaurants. Famous for its street performers, the Royal Opera House, and the London Transport Museum. The cobblestone piazza hosts daily street entertainment and seasonal events.",
+      "description": "Vibrant district in a former market building, featuring shops, craft stalls, and restaurants. Known for street performers, Royal Opera House, and London Transport Museum. Hosts daily entertainment.",
       "coordinates": [
         51.5117,
         -0.1206

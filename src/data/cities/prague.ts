@@ -16,7 +16,7 @@ export const prague: City = {
     {
       "id": 1,
       "name": "Charles Bridge",
-      "description": "A magnificent Gothic bridge spanning the Vltava River, built in 1357. Famous for its stunning statues, street artists, and spectacular views of Prague Castle. Best visited early morning or at sunset for magical atmosphere.",
+      "description": "Gothic bridge spanning the Vltava River, built in 1357. Features stunning statues and views of Prague Castle.",
       "coordinates": [
         50.0865,
         14.414
@@ -29,7 +29,7 @@ export const prague: City = {
     {
       "id": 2,
       "name": "Prague Castle",
-      "description": "The largest ancient castle complex in the world, dating back to the 9th century. Home to St. Vitus Cathedral, Golden Lane, and the Old Royal Palace. The changing of the guard ceremony occurs hourly.",
+      "description": "World's largest ancient castle complex from 9th century. Features St. Vitus Cathedral and hourly guard ceremony.",
       "coordinates": [
         50.0905,
         14.3975
@@ -42,7 +42,7 @@ export const prague: City = {
     {
       "id": 3,
       "name": "Old Town Square",
-      "description": "The heart of Prague's historic center, featuring Gothic and baroque architecture. Home to the Astronomical Clock, Týn Church, and colorful houses. Bustling with cafes, street performers, and seasonal markets.",
+      "description": "Historic center with Gothic and baroque architecture. Features Astronomical Clock, Týn Church, and seasonal markets.",
       "coordinates": [
         50.087,
         14.4225
@@ -55,7 +55,7 @@ export const prague: City = {
     {
       "id": 4,
       "name": "Prague astronomical clock",
-      "description": "A masterpiece of medieval engineering from 1410, showing time, astronomical positions, and religious events. Watch the hourly show of moving apostle figures and other mechanical performances.",
+      "description": "Medieval engineering marvel from 1410. Shows time, astronomical positions with hourly moving apostle figures.",
       "coordinates": [
         50.087,
         14.422
@@ -68,7 +68,7 @@ export const prague: City = {
     {
       "id": 5,
       "name": "St. Vitus Cathedral",
-      "description": "A Gothic masterpiece and spiritual symbol of the Czech state, featuring stunning stained glass windows, the St. Wenceslas Chapel, and the Crown Jewels chamber. Construction began in 1344 and took nearly six centuries to complete.",
+      "description": "Gothic cathedral and spiritual symbol of Czech state. Features stained glass windows and Crown Jewels chamber.",
       "coordinates": [
         50.09,
         14.397
@@ -81,7 +81,7 @@ export const prague: City = {
     {
       "id": 6,
       "name": "Josefov",
-      "description": "Prague's historic Jewish Quarter, featuring well-preserved synagogues, the Old Jewish Cemetery, and the Jewish Museum. This area survived WWII intact and offers profound insights into Jewish history and culture through its remarkable architecture and exhibitions.",
+      "description": "Historic Jewish Quarter with preserved synagogues and Old Jewish Cemetery. Houses Jewish Museum exhibitions.",
       "coordinates": [
         50.09,
         14.425
@@ -94,7 +94,7 @@ export const prague: City = {
     {
       "id": 7,
       "name": "Petřín",
-      "description": "A verdant hill crowned with a 63.5-meter-tall lookout tower resembling the Eiffel Tower. Features beautiful gardens, a mirror maze, and an observatory. Accessible by funicular railway, offering panoramic views of Prague.",
+      "description": "Hill with 63.5m lookout tower, gardens, and observatory. Accessible by funicular with panoramic views.",
       "coordinates": [
         50.082,
         14.392
@@ -107,7 +107,7 @@ export const prague: City = {
     {
       "id": 8,
       "name": "Wenceslas Square",
-      "description": "Prague's vibrant commercial and cultural heart, this historic square has been the site of many historic events. Dominated by the National Museum and statue of St. Wenceslas, it's lined with shops, hotels, and restaurants in stunning Art Nouveau buildings.",
+      "description": "Commercial and cultural hub with National Museum and St. Wenceslas statue. Features Art Nouveau architecture.",
       "coordinates": [
         50.0815,
         14.4245
@@ -120,7 +120,7 @@ export const prague: City = {
     {
       "id": 9,
       "name": "National Theatre (Prague)",
-      "description": "A neo-Renaissance architectural jewel and cultural landmark, opened in 1881. Home to opera, ballet, and drama performances. Its golden roof and elaborate decorations symbolize the Czech National Revival movement.",
+      "description": "Neo-Renaissance theater opened in 1881. Hosts opera, ballet, and drama in elaborate golden-roofed venue.",
       "coordinates": [
         50.0775,
         14.4145
@@ -133,7 +133,7 @@ export const prague: City = {
     {
       "id": 10,
       "name": "Kampa Island",
-      "description": "A peaceful oasis in the heart of Prague, known for its picturesque water wheels, modern art museum, and charming cafes. Features the famous John Lennon Wall and offers beautiful views of Charles Bridge from its riverside parks.",
+      "description": "Peaceful island with water wheels and modern art museum. Features John Lennon Wall and riverside parks.",
       "coordinates": [
         50.084,
         14.408
@@ -159,7 +159,7 @@ export const prague: City = {
     {
       "id": 12,
       "name": "Malá Strana",
-      "description": "A historic district with baroque architecture.",
+      "description": "Charming district below Prague Castle with baroque palaces, gardens, and historic churches.",
       "coordinates": [
         50.086,
         14.405
@@ -184,3 +184,4 @@ export const prague: City = {
     }
   ]
 } as const;
+

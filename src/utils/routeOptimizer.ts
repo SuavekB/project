@@ -255,17 +255,29 @@ export async function generateDailyRoutes(
   const maxPointsPerDay = 7; // Maximum points per day
 
   if (days === 1) {
-    // For single day, use the original optimization
+    // For single day, create two variants: complete and short walking distance
     const route = await optimizeRoute(startPoint, points);
+    const nearbyPoints = points.filter(point => getDistance(startPoint, point.coordinates) <= 1.5);
+    const shortRoute = await optimizeRoute(startPoint, nearbyPoints);
+
     dailyRoutes.push({
       day: 1,
-      routes: [{
-        id: 1,
-        name: "Complete City Experience",
-        description: "A comprehensive route covering major attractions across the city.",
-        ...route,
-        transportSuggestions: []
-      }]
+      routes: [
+        {
+          id: 1,
+          name: "Complete City Experience",
+          description: "A comprehensive route covering major attractions across the city.",
+          ...route,
+          transportSuggestions: []
+        },
+        {
+          id: 2,
+          name: "Short Walking Distance",
+          description: "A convenient route covering attractions within 1.5km of the starting point.",
+          ...shortRoute,
+          transportSuggestions: []
+        }
+      ]
     });
   } else {
     // For multiple days, use geographical clustering

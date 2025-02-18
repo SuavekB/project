@@ -16,7 +16,7 @@ export const vienna: City = {
     {
       "id": 1,
       "name": "Schönbrunn Palace",
-      "description": "Imperial summer residence with beautiful gardens.",
+      "description": "Magnificent Baroque palace with 1,441 rooms and vast gardens. Features the Gloriette monument, maze, and oldest zoo in Europe.",
       "coordinates": [
         48.1855,
         16.3123
@@ -29,7 +29,7 @@ export const vienna: City = {
     {
       "id": 2,
       "name": "Hofburg",
-      "description": "Imperial winter residence.",
+      "description": "Former Habsburg palace complex housing imperial apartments, museums, and the Spanish Riding School. Features the Imperial Treasury and Austrian National Library.",
       "coordinates": [
         48.2099,
         16.3634
@@ -42,7 +42,7 @@ export const vienna: City = {
     {
       "id": 3,
       "name": "St. Stephen's Cathedral, Vienna",
-      "description": "Gothic cathedral, symbol of Vienna.",
+      "description": "Iconic Gothic cathedral with ornate spires and catacombs. Features the Pummerin bell and panoramic tower views.",
       "coordinates": [
         48.2092,
         16.3725
@@ -55,7 +55,7 @@ export const vienna: City = {
     {
       "id": 4,
       "name": "Graben, Vienna",
-      "description": "Elegant street with numerous shops and restaurants.",
+      "description": "Historic pedestrian street with luxury boutiques and cafes. Features elegant architecture and the Plague Column monument.",
       "coordinates": [
         48.21,
         16.37
@@ -68,7 +68,7 @@ export const vienna: City = {
     {
       "id": 5,
       "name": "Albertina",
-      "description": "Museum with a rich collection of graphic art.",
+      "description": "World-class museum housing the largest graphic art collection. Features works by Dürer, Klimt, and Schiele, plus temporary exhibitions.",
       "coordinates": [
         48.205,
         16.368
@@ -81,7 +81,7 @@ export const vienna: City = {
     {
       "id": 6,
       "name": "Rathausplatz, Vienna",
-      "description": "Square in front of the town hall.",
+      "description": "Central square hosting seasonal festivals and markets. Features the neo-Gothic City Hall and a beautiful park.",
       "coordinates": [
         48.215,
         16.358
@@ -94,7 +94,7 @@ export const vienna: City = {
     {
       "id": 7,
       "name": "Wurstelprater",
-      "description": "Amusement park with a Ferris wheel.",
+      "description": "Historic amusement park with the iconic Giant Ferris Wheel. Features traditional rides, restaurants, and entertainment venues.",
       "coordinates": [
         48.225,
         16.4
@@ -107,7 +107,7 @@ export const vienna: City = {
     {
       "id": 8,
       "name": "Belvedere, Vienna",
-      "description": "Baroque palace complex housing the Austrian Gallery.",
+      "description": "Stunning Baroque palace complex with beautiful gardens. Houses important Austrian art collection, including Klimt's 'The Kiss'.",
       "coordinates": [
         48.194167,
         16.380278
@@ -120,7 +120,7 @@ export const vienna: City = {
     {
       "id": 9,
       "name": "Spanish Riding School",
-      "description": "Home of the Lipizzaner stallions.",
+      "description": "Historic riding school showcasing classical dressage. Features elegant performances by Lipizzan horses in a Baroque hall.",
       "coordinates": [
         48.208,
         16.366
@@ -133,7 +133,7 @@ export const vienna: City = {
     {
       "id": 10,
       "name": "Naschmarkt",
-      "description": "Vienna's largest open-air market.",
+      "description": "Vibrant open-air market with local and international food stalls. Features fresh produce, restaurants, and weekend flea market.",
       "coordinates": [
         48.19,
         16.36
@@ -184,3 +184,4 @@ export const vienna: City = {
     }
   ]
 } as const;
+

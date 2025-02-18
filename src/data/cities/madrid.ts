@@ -16,7 +16,7 @@ export const madrid: City = {
     {
       "id": 1,
       "name": "Royal Palace of Madrid",
-      "description": "The official residence of the Spanish Royal Family and one of Europe's largest palaces. Built in the 18th century on the site of a former Moorish fortress, this Baroque masterpiece features over 3,000 rooms, including the stunning Royal Armory, Royal Pharmacy, and the lavishly decorated Throne Room. Visitors can explore the State Rooms, admire priceless artworks, tapestries, and the world's only complete Stradivarius string quartet.",
+      "description": "18th-century Baroque palace with over 3,000 rooms. Features Royal Armory, Pharmacy, and Throne Room with priceless artworks.",
       "coordinates": [
         40.4167,
         -3.713
@@ -29,7 +29,7 @@ export const madrid: City = {
     {
       "id": 2,
       "name": "Museo del Prado",
-      "description": "One of the world's most prestigious art museums, housing Europe's finest collection of Spanish art. The museum's extensive collection includes masterpieces by Velázquez, Goya, and El Greco, with the crown jewel being 'Las Meninas'. Founded in 1819, the museum features over 8,000 paintings and 700 sculptures, with highlights including Bosch's 'The Garden of Earthly Delights' and Titian's 'Emperor Charles V on Horseback'.",
+      "description": "World-renowned art museum with Spain's finest collection. Houses masterpieces by Velázquez, Goya, and El Greco.",
       "coordinates": [
         40.4138,
         -3.6922
@@ -42,7 +42,7 @@ export const madrid: City = {
     {
       "id": 3,
       "name": "Buen Retiro Park",
-      "description": "A historic 350-acre park that once belonged to the Spanish Monarchy, now Madrid's green lung. This elegant park features formal gardens, the stunning Crystal Palace, a boating lake, and numerous sculptures including the famous Fallen Angel statue. The park serves as a peaceful retreat from city life, offering various cultural activities, outdoor concerts, and temporary exhibitions throughout the year.",
+      "description": "Historic 350-acre park with formal gardens, Crystal Palace, and boating lake. Features Fallen Angel statue and cultural events.",
       "coordinates": [
         40.414,
         -3.682
@@ -55,7 +55,7 @@ export const madrid: City = {
     {
       "id": 4,
       "name": "Puerta del Sol",
-      "description": "The heart of Madrid and the symbolic center of Spain, marked by the famous 'Kilometer Zero' plaque from which all distances in Spain are measured. This bustling square features the iconic clock tower of the Real Casa de Correos, whose bells mark the traditional eating of the Twelve Grapes on New Year's Eve, and the famous statue of El Oso y El Madroño (The Bear and the Strawberry Tree), Madrid's official symbol.",
+      "description": "Madrid's central square with 'Kilometer Zero' plaque. Features clock tower and El Oso y El Madroño statue.",
       "coordinates": [
         40.4167,
         -3.7035
@@ -68,7 +68,7 @@ export const madrid: City = {
     {
       "id": 5,
       "name": "Gran Vía, Madrid",
-      "description": "Madrid's most famous avenue, known as the 'Spanish Broadway' for its stunning early 20th-century architecture and vibrant entertainment scene. This elegant boulevard, constructed between 1910 and 1929, features remarkable examples of Art Deco and Art Nouveau buildings, housing flagship stores, luxury hotels, historic movie theaters, and the city's best shopping destinations.",
+      "description": "Famous avenue known as 'Spanish Broadway'. Features Art Deco architecture, luxury hotels, and historic theaters.",
       "coordinates": [
         40.42,
         -3.7025
@@ -81,7 +81,7 @@ export const madrid: City = {
     {
       "id": 6,
       "name": "Santiago Bernabéu Stadium",
-      "description": "The legendary home of Real Madrid CF, one of the world's most successful football clubs. This iconic stadium, with a capacity of over 81,000 spectators, has hosted numerous historic matches including European Cup finals and World Cup games. Visitors can tour the stadium's museum, which showcases the club's extensive trophy collection, visit the presidential box, and walk through the players' tunnel onto the pitch.",
+      "description": "Home of Real Madrid CF, with a capacity of over 81,000 spectators. Tour the museum with extensive trophy collection, visit presidential box, and walk through players' tunnel.",
       "coordinates": [
         40.453,
         -3.688
@@ -94,7 +94,7 @@ export const madrid: City = {
     {
       "id": 7,
       "name": "Temple of Debod",
-      "description": "An authentic ancient Egyptian temple gifted to Spain by Egypt in 1968 as a token of gratitude for helping to save the Abu Simbel temples. Originally built in the 2nd century BC, this unique monument was carefully reconstructed in Madrid's Oeste Park, where it offers stunning sunset views over the city. The temple is surrounded by a reflecting pool and features original hieroglyphics and architectural elements.",
+      "description": "An ancient Egyptian temple gifted to Spain in 1968. Originally from 2nd century BC, offers stunning sunset views and features original hieroglyphics.",
       "coordinates": [
         40.422,
         -3.718
@@ -107,7 +107,7 @@ export const madrid: City = {
     {
       "id": 8,
       "name": "Market of San Miguel",
-      "description": "A historic wrought-iron-and-glass market built in 1916, now transformed into Madrid's premier gourmet food destination. This gastronomic temple features over 30 different vendors offering the finest Spanish cuisine, from fresh seafood and cured meats to artisanal cheeses and sweet treats. The market's vibrant atmosphere and beautiful architecture make it a must-visit for food enthusiasts.",
+      "description": "A historic wrought-iron-and-glass market from 1916, now Madrid's premier gourmet destination. Features 30+ vendors offering Spanish cuisine, from seafood to artisanal cheeses.",
       "coordinates": [
         40.4155,
         -3.7085

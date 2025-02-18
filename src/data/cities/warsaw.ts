@@ -16,7 +16,7 @@ export const warsaw: City = {
     {
       "id": 1,
       "name": "Old Town, Warsaw",
-      "description": "The historic center of Warsaw with colorful townhouses, charming squares, and the Royal Castle. Explore the cobblestone streets and admire the beautifully reconstructed architecture. A must-see for any visitor.",
+      "description": "Historic center with colorful townhouses and the Royal Castle. Explore cobblestone streets and admire reconstructed architecture.",
       "coordinates": [
         52.2495,
         21.0122
@@ -29,7 +29,7 @@ export const warsaw: City = {
     {
       "id": 2,
       "name": "Łazienki Park",
-      "description": "A vast park with palaces, pavilions and gardens, including the iconic Palace on the Isle.  Enjoy a leisurely stroll, admire the peacocks, and visit the open-air amphitheater. A perfect place for relaxation.",
+      "description": "Vast park with palaces and gardens, featuring the Palace on the Isle. Perfect for relaxation with peacocks and an open-air amphitheater.",
       "coordinates": [
         52.2153,
         21.0355
@@ -42,7 +42,7 @@ export const warsaw: City = {
     {
       "id": 3,
       "name": "Palace of Culture and Science",
-      "description": "A monumental building in the socialist realism style, offering panoramic views of the city from its observation deck.  Explore the various halls and chambers within this controversial landmark.  It's a symbol of Warsaw.",
+      "description": "Monumental socialist realism building with panoramic city views from its observation deck. A controversial yet iconic Warsaw landmark.",
       "coordinates": [
         52.2322,
         21.0066
@@ -55,7 +55,7 @@ export const warsaw: City = {
     {
       "id": 4,
       "name": "New World Street, Warsaw",
-      "description": "An elegant street with numerous shops and restaurants, connecting the Old Town to other parts of the city.  Enjoy the vibrant atmosphere, browse the boutiques, and savor delicious cuisine. A great place for a walk.",
+      "description": "Elegant street connecting Old Town, featuring shops and restaurants. Perfect for shopping and dining in a vibrant atmosphere.",
       "coordinates": [
         52.2354,
         21.0191
@@ -68,7 +68,7 @@ export const warsaw: City = {
     {
       "id": 5,
       "name": "Warsaw Rising Museum",
-      "description": "A museum dedicated to the Warsaw Uprising, showcasing the heroic struggle of the Polish resistance against the Nazi occupation. Notable exhibits include the B-24 Liberator bomber replica, original resistance weapons, and the haunting 'City of Ruins' 3D film. Experience the history through artifacts, personal accounts, and interactive displays. A moving and informative experience.",
+      "description": "Museum dedicated to the Warsaw Uprising with exhibits including resistance weapons and the 'City of Ruins' 3D film. Interactive displays tell the story of Polish resistance.",
       "coordinates": [
         52.2322,
         20.983
@@ -81,7 +81,7 @@ export const warsaw: City = {
     {
       "id": 6,
       "name": "Vistulan Boulevards, Warsaw",
-      "description": "A promenade along the Vistula River, offering scenic views and a relaxing atmosphere.  Enjoy a walk or bike ride, stop at a riverside cafe, and admire the cityscape. A perfect spot for enjoying the river.",
+      "description": "Riverside promenade offering scenic views. Perfect for walks, cycling, and enjoying cafes along the Vistula River.",
       "coordinates": [
         52.245,
         21.0248
@@ -94,7 +94,7 @@ export const warsaw: City = {
     {
       "id": 7,
       "name": "Praga",
-      "description": "An alternative district with murals and atmospheric pubs, known for its unique character and artistic vibe. Explore the street art, discover hidden gems, and experience the bohemian atmosphere. A different side of Warsaw.",
+      "description": "Alternative district known for murals, atmospheric pubs, and artistic vibe. Experience Warsaw's bohemian culture.",
       "coordinates": [
         52.2534,
         21.0351
@@ -107,7 +107,7 @@ export const warsaw: City = {
     {
       "id": 8,
       "name": "Koszyki Hall",
-      "description": "A revitalized market hall with restaurants and bars, offering a diverse culinary experience. Sample local delicacies, enjoy international cuisine, and soak in the lively atmosphere. A great place for food lovers.",
+      "description": "Revitalized market hall offering diverse culinary experiences, from local delicacies to international cuisine.",
       "coordinates": [
         52.222,
         21.013
@@ -120,7 +120,7 @@ export const warsaw: City = {
     {
       "id": 9,
       "name": "Tomb of the Unknown Soldier, Warsaw",
-      "description": "A memorial place dedicated to fallen soldiers, honoring their sacrifice and bravery.  Witness the changing of the guard ceremony and pay tribute to the heroes. A solemn and respectful place.",
+      "description": "Memorial dedicated to fallen soldiers, featuring the changing of the guard ceremony. A place of remembrance and respect.",
       "coordinates": [
         52.2411,
         21.0112
@@ -133,7 +133,7 @@ export const warsaw: City = {
     {
       "id": 10,
       "name": "Saxon Garden",
-      "description": "One of the oldest city parks in Warsaw. Relax in this historic park, located near Piłsudski Square. Admire the sculptures and fountains. A peaceful oasis in the city.",
+      "description": "Historic city park near Piłsudski Square, featuring sculptures and fountains. A peaceful retreat in Warsaw's center.",
       "coordinates": [
         52.241,
         21.0075
@@ -146,7 +146,7 @@ export const warsaw: City = {
     {
       "id": 11,
       "name": "Warsaw National Museum",
-      "description": "Houses a rich collection of Polish and international art. Notable exhibits include Botticelli's 'Madonna with Child', medieval Polish altar paintings, and the Faras Gallery's Nubian Christian art collection. Explore art from antiquity to modern times at this impressive museum. Discover masterpieces and learn about art history.",
+      "description": "Home to Polish and international art, including Botticelli's works and medieval Polish altar paintings. Features the unique Faras Gallery of Nubian art.",
       "coordinates": [
         52.2311,
         21.0254
@@ -159,7 +159,7 @@ export const warsaw: City = {
     {
       "id": 12,
       "name": "Copernicus Science Centre",
-      "description": "An interactive science museum for all ages. Key permanent exhibits include the Roots of Civilization gallery, High Voltage Theatre with lightning demonstrations, and the Heavens of Copernicus planetarium. Experiment and learn about science through hands-on exhibits. Discover the wonders of the universe and have fun with science.",
+      "description": "Interactive science museum featuring the Roots of Civilization gallery, High Voltage Theatre, and Heavens of Copernicus planetarium.",
       "coordinates": [
         52.2405,
         21.0238
@@ -172,7 +172,7 @@ export const warsaw: City = {
     {
       "id": 13,
       "name": "Presidential Palace, Warsaw",
-      "description": "The official residence of the President of Poland. Located on Krakowskie Przedmieście, this elegant palace has a rich history. Admire the architecture and learn about its significance.",
+      "description": "Official presidential residence on Krakowskie Przedmieście. Historic palace showcasing elegant architecture.",
       "coordinates": [
         52.2423,
         21.0139
@@ -185,7 +185,7 @@ export const warsaw: City = {
     {
       "id": 14,
       "name": "POLIN Museum of the History of Polish Jews",
-      "description": "Dedicated to preserving Jewish heritage in Poland. Notable permanent exhibits include the reconstructed roof and ceiling of the 17th-century Gwoździec wooden synagogue, the Jewish Street recreation from the interwar period, and the Holocaust Gallery. The museum presents over a thousand years of history through interactive exhibits. Learn about the rich culture and history of Polish Jews.",
+      "description": "Museum preserving Jewish heritage, featuring a reconstructed wooden synagogue and interactive exhibits spanning 1000 years of Polish-Jewish history.",
       "coordinates": [
         52.2518,
         20.9936
@@ -223,3 +223,4 @@ export const warsaw: City = {
     }
   ]
 } as const;
+
